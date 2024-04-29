@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Drag N Drop </title>
+</head>
+<body>
+
+<h1 class="logo image-center h-42 w-72"><img src="logo.png" alt=""></h1>
+<div class="counter flex justify-center">
+  <div id="score" class="score bg-gray-300 rounded-lg px-4 py-2">Score: <span id="scoreValue">0</span></div>
+</div>
+
+<div class="collection flex flex-col items-start">
+  <div class="collection2 grid grid-cols-5 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="emerald-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+  </div>
+
+  <div class="collection2 grid grid-cols-4 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="emerald-stone.png" alt=""></div>
+    </div>
+  </div>
+  <div class="collection2 grid grid-cols-3 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+  </div> 
+  <div class="collection2 grid grid-cols-2 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+  </div> 
+  <div class="collection2 grid grid-cols-1 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    
+  </div> 
+  </div>
+
+    <div class="collection3 flex flex-col items-end">
+      <div class="collection4 grid grid-cols-5 gap-4">
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="emerald-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+        </div>
+      </div>
+    
+      <div class="collection4 grid grid-cols-4 gap-4">
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="emerald-stone.png" alt=""></div>
+        </div>
+      </div>
+      <div class="collection4 grid grid-cols-3 gap-4">
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+        </div>
+        <div class="hover1">
+          <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+        </div>
+    
+  </div>
+  <div class="collection4 grid grid-cols-2 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="ruby-stone.png" alt=""></div>
+    </div>
+    
+  </div>
+  <div class="collection4 grid grid-cols-1 gap-4">
+    <div class="hover1">
+      <div class="fill" draggable="true"><img src="amethyst-stone.png" alt=""></div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="hover flex justify-center items-center space-x-4">
+  <div class="empty h-72 w-72 border-2 border-black rounded-lg"></div>
+  <div class="empty h-72 w-72 border-2 border-black rounded-lg"></div>
+  <div class="empty h-72 w-72 border-2 border-black rounded-lg"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
